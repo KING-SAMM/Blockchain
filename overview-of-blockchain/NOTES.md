@@ -70,3 +70,44 @@ Blockchain transaction works by implementing one of the following features in ea
 3. Concensus Mechanism
 4. Distributed Ledger
 ```
+
+TRANSACTION INITIATION:
+FEATURES OF BLOCKCHAIN: 1.CRYPTOGRAPHY ALGORITHM
+------------------------------------------
+```
+It is an algorithm that is used to alter data from plain text (readable format) to cipher text (protected format) and back to plain text
+
+    Plaintext -> (Encryption) -> Ciphertext -> (Decryption) -> Plaintext
+
+There are two kinds of cryptographies
+    1. Asymmetric key cryptography, and
+    2. Symmetric key cryptography
+```
+
+ASYMMETRIC KEY CRYPTOGAPHY
+------------------------------------------
+```
+Asymmetric key cryptography uses two kinds of keys 
+    - the public key (encrypt message using public key)
+    - the private key (decrypt message using private key)
+
+```
+
+SYMMETRIC KEY CRYPTOGAPHY
+------------------------------------------
+```
+Symmetric key cryptography uses only one key - the secret key - for both encryption and decryption
+
+The Bitcoin Blockchain uses asymmetric key cryptography in order to leverage the public key and private key of users to create digital signatures for initiating a transaction which is eventually propagated through the network.
+
+```
+
+
+DIGITAL SIGNATURE
+------------------------------------------
+```
+- A digital signature provides authentication and validation, like normal signatures
+- It ensures unsures the security and integrity of data recorded on the Blockchain
+- It uses asymmetric cryptography in which information can be shared using a public key
+- Primary keys are linked to users providing digital signatures a quality of nonrepudiation
+```
