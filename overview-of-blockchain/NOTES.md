@@ -75,7 +75,7 @@ TRANSACTION INITIATION:
 FEATURES OF BLOCKCHAIN: 1.CRYPTOGRAPHY ALGORITHM
 ------------------------------------------
 ```
-It is an algorithm that is used to alter data from plain text (readable format) to cipher text (protected format) and back to plain text
+It is an algorithm that is used to alter data from plain text (readable format) to ciphertext (protected format) and back to plain text
 
     Plaintext -> (Encryption) -> Ciphertext -> (Decryption) -> Plaintext
 
@@ -110,4 +110,15 @@ DIGITAL SIGNATURE
 - It ensures unsures the security and integrity of data recorded on the Blockchain
 - It uses asymmetric cryptography in which information can be shared using a public key
 - Primary keys are linked to users providing digital signatures a quality of nonrepudiation
+```
+
+DIGITAL SIGNATURE CREATION
+------------------------------------------
+```
+1. The signer takes a information to be transmitted and runs a hash algorithm to generate a 32 or 64 bit hash value.
+2. This hash value is encrypted using the signer's private key.
+3. The result is a digitally signed document which is broadcasted into the network.
+4. Once the verifier receives this document, he decrypts it using the signer's public key.
+5. The hash value created after decryption is then compared with another hash value generarted locally by the verifier using the same hash algorithm as the one used by the signer.
+6. If the hash valus are equal, then the signature is considered valid and the verifier can then use the document.
 ```
