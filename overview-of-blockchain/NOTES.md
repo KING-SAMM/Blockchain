@@ -12,7 +12,7 @@ At its core, blockchain is simply a chain of blocks. When using using the words 
 HISTORY OF BLOCKCHAIN
 ------------------------------------------
 ```
-1990 :-         The concept of distributed ledgers has been  around since 1990. The application, Bitorrent, leverages this tech to share media files.
+1990 :-         The concept of distributed ledgers has been around since 1990. The application, Bitorrent, leverages this tech to share media files.
 2009 :-         Satoshi Nakamoto created Bitcoin and introduced the concept of blockchain which used distributed ledger + advanced cryptography.
 2011 - 2012 :-  Cryptocurrency deployment in applications like wallet and exchange platforms.
 2012 - 2013 :-  This allwed cryptocurrencies to be used in currency transfers and digital payment systems.
@@ -34,32 +34,6 @@ ISSUES IN BANKING SYSTEM
 6. Every bank maintains its own ledger, thus the banks need to update them independently and reconcile periodically.
 ```
 
-BLOCKCHAINN SOLUTION FOR THE ISSUES
-------------------------------------------
-```
-1. Transactions are very fast, completeing almost immediately
-2. In the banking system, every bank maintains its own ledger, thus the banks need to update them independently and reconcile periodically. The blockchain on the contrary, conprises of a single ledger shared among all participants, thus no separate messaging protocol is required.
-
-Thus, blockchain takled the issues in traditional banking with some of its features mentioned below:
-
-1. Decentralized system
-2. Distributed ledger
-3. Incentives of validation
-4. Concensus Algorithm
-5. Advanced Cryptography algorithm
-```
-
-BLOCKCHAIN TRANSACTION PROCESS
-------------------------------------------
-```
-1. New transaction is requested.
-2. The reqested ttransaction is broadcasted throughout the network and picked up by various miners who are part of the network
-3. Each miner runs some computation in order to validate the transaction.
-4. Once validated, the transaction becomes part of the new block created.
-5. The new block is, in turn, added to the blockchain.
-
-This is how a new transaction is completed.
-```
 
 STEPS OF BLOCKCHAIN TRANSACTION
 ------------------------------------------
@@ -121,4 +95,15 @@ DIGITAL SIGNATURE CREATION
 4. Once the verifier receives this document, he decrypts it using the signer's public key.
 5. The hash value created after decryption is then compared with another hash value generarted locally by the verifier using the same hash algorithm as the one used by the signer.
 6. If the hash valus are equal, then the signature is considered valid and the verifier can then use the document.
+```
+
+GENERATION OF A PUBLIC-PRIVATE KEY PAIR, AND A DIGITAL SIGNATURE
+------------------------------------------
+```
+1. Visit: https://andersbrownworth.com/blockchain/public-private-keys/keys
+2. Click on 'Random' to generate public and private keys
+3. Click 'Signature' tab
+4. Enter a message in the message field and click on the 'Sign' button
+5. Visit the 'Verify' tab and click on 'Verify' button to verify the digital signature
+6. Change the message in the 'Message' tab and click on 'Verify'
 ```
