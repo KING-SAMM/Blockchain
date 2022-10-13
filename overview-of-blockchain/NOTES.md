@@ -34,6 +34,32 @@ ISSUES IN BANKING SYSTEM
 6. Every bank maintains its own ledger, thus the banks need to update them independently and reconcile periodically.
 ```
 
+BLOCKCHAINN SOLUTION FOR THE ISSUES
+------------------------------------------
+```
+1. Transactions are very fast, completeing almost immediately
+2. In the banking system, every bank maintains its own ledger, thus the banks need to update them independently and reconcile periodically. The blockchain on the contrary, conprises of a single ledger shared among all participants, thus no separate messaging protocol is required.
+
+Thus, blockchain takled the issues in traditional banking with some of its features mentioned below:
+
+1. Decentralized system
+2. Distributed ledger
+3. Incentives of validation
+4. Concensus Algorithm
+5. Advanced Cryptography algorithm
+```
+
+BLOCKCHAIN TRANSACTION PROCESS
+------------------------------------------
+```
+1. New transaction is requested.
+2. The reqested ttransaction is broadcasted throughout the network and picked up by various miners who are part of the network
+3. Each miner runs some computation in order to validate the transaction.
+4. Once validated, the transaction becomes part of the new block created.
+5. The new block is, in turn, added to the blockchain.
+
+This is how a new transaction is completed.
+```
 
 STEPS OF BLOCKCHAIN TRANSACTION
 ------------------------------------------
