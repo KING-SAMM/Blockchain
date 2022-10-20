@@ -163,3 +163,10 @@ Concensus algorithm is a concept from Computer Science which is used to reach an
 
 Thus concensus algorithms provide reliiability in a network consisting of unreliable nodes.
 ```
+
+
+CONCENSUS PROTOCOL
+------------------------------------------
+```
+A Concensus Protocol is a fault-toleraant protocol that is used to acheive the necessary agreement on a single data value, on a single 
+```
