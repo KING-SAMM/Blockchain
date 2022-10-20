@@ -53,7 +53,7 @@ BLOCKCHAIN TRANSACTION PROCESS
 ------------------------------------------
 ```
 1. New transaction is requested.
-2. The reqested ttransaction is broadcasted throughout the network and picked up by various miners who are part of the network
+2. The reqested transaction is broadcasted throughout the network and picked up by various miners who are part of the network
 3. Each miner runs some computation in order to validate the transaction.
 4. Once validated, the transaction becomes part of the new block created.
 5. The new block is, in turn, added to the blockchain.
@@ -107,7 +107,7 @@ DIGITAL SIGNATURE
 ------------------------------------------
 ```
 - A digital signature provides authentication and validation, like normal signatures
-- It ensures unsures the security and integrity of data recorded on the Blockchain
+- It ensures the security and integrity of data recorded on the Blockchain
 - It uses asymmetric cryptography in which information can be shared using a public key
 - Primary keys are linked to users providing digital signatures a quality of nonrepudiation
 ```
@@ -132,4 +132,21 @@ GENERATION OF A PUBLIC-PRIVATE KEY PAIR, AND A DIGITAL SIGNATURE
 4. Enter a message in the message field and click on the 'Sign' button
 5. Visit the 'Verify' tab and click on 'Verify' button to verify the digital signature
 6. Change the message in the 'Message' tab and click on 'Verify'
+```
+
+
+TRANSACTION BROADCAST:
+FEATURES OF BLOCKCHAIN: 2. DECENTRALISED NETWORK
+------------------------------------------
+```
+A decetraluzed network is a system wjere miners play an important role im the validation of transactions taking place
+```
+
+TYPES OF NETWORKS
+------------------------------------------
+```
+1. Centralized network
+2. Decentralized network
+
+Blockchain is built on a decentralized network which can be identified by a peer-to-peer connections of miners who play an important role in the validation of every transaction.
 ```
