@@ -135,3 +135,38 @@ GENERATION OF A PUBLIC-PRIVATE KEY PAIR, AND A DIGITAL SIGNATURE
 ```
 
 
+TRANSACTION BROADCAST:
+FEATURES OF BLOCKCHAIN: 2. DECENTRALISED NETWORK
+------------------------------------------
+```
+A decetraluzed network is a system wjere miners play an important role im the validation of transactions taking place
+```
+
+TYPES OF NETWORKS
+------------------------------------------
+```
+1. Centralized network
+2. Decentralized network
+
+Blockchain is built on a decentralized network which can be identified by a peer-to-peer connections of miners who play an important role in the validation of every transaction.
+
+
+Centralized network is characterized by a mandatory centralized point, which can be a client, a hub, or a piece of hardware through which all data on the  network must pass.
+```
+
+
+FEATURES OF CONCENSUS:
+FEATURES OF BLOCKCHAIN: 3. CONCENSUS ALGORITHM
+------------------------------------------
+```
+Concensus algorithm is a concept from Computer Science which is used to reach an agreement on a specific data value when the system is ditributed
+
+Thus concensus algorithms provide reliiability in a network consisting of unreliable nodes.
+```
+
+
+CONCENSUS PROTOCOL
+------------------------------------------
+```
+A Concensus Protocol is a fault-toleraant protocol that is used to acheive the necessary agreement on a single data value, on a single 
+```
