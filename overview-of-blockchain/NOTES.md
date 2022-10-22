@@ -168,5 +168,9 @@ Thus concensus algorithms provide reliiability in a network consisting of unreli
 CONCENSUS PROTOCOL
 ------------------------------------------
 ```
-A Concensus Protocol is a fault-toleraant protocol that is used to acheive the necessary agreement on a single data value, on a single 
+A Concensus Protocol is a fault-toleraant protocol that is used to acheive the necessary agreement on a single data value, on a single state of network.
+
+It is a set of rules that decide on the contribution of the various participants of the blockchain.
+
+It ensures that all transactions ocurring on the network are genuine and all participants agree on the concensus of the ledger.
 ```
