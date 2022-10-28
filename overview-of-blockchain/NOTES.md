@@ -226,4 +226,51 @@ Hash code is a numeric value which assists in identifying an object at the time 
 - Thus Hash code is an algorithm that converts a sequence of characters into a string of 64 letters or numbers.
 ```
 
+HASH POINTER
+------------------------------------------
+```
+A Hash pointer is a pointer to the location where information or hash of that information is stored.
+
+- If we retrieve information that a pointer points at, we can get hash of the information and confirm it to be unchanged.
+- It requires information of previous hash.
+
+- Like a regular pointer, it lets us locate information. Unlike a regular pointer, it also lets us verify that the information has not been tampered.
+```
+
+
+PROOF OF STAKE
+------------------------------------------
+```
+Proof of Stake is a low cost, low energy-consuming algorithm that states that a person can mine and validate transactions based on how many coins (cryptocurrency) s/he holds.
+
+1. Anyone who holds the base cryptocurrency can become a validator, - although sometiimes a locked-up deposit is required.
+
+2. A validator's chance of mining a block is based on how much stake or cryptocurrency they have. 
+
+For example, if you owned 1% of the cryptocurrency, you would be able to mine 1% of all its transactions.
+
+
+3. The Proof of Stake protocol will randomly assign the right to create a block between selected validators based upon the value created by their stakes. The chosen validator will be rewarded with a part of or the whole of the transaction fees.
+```
+
+
+PROOF OF ELAPSED TIME
+------------------------------------------
+```
+Proof of Elapsed Time is a consensus algorithm that prevents high energy consumption and resourse utilization by following lottery system.
+
+Each participant in the network is required to wait for a randomly chosen time period. The one who completes the designated waiting time wins the new block.
+```
+
+
+PRACTICAL BYZANTINE FAULT TOLERANCE (PBFT)
+------------------------------------------
+```
+Practical Byzantine Faut Tolerance (PBFT) improves the robustness and performance of transactions by directing peer-to-peer messages with minimal latency.
+
+- The blockchain operator configures and operates the blockchain network
+- To this network, smart contracts are deployed and executed on peer nodes
+- The applications are then used to invoke the smart contracts
+- Though the exact network structure depends on the consensus mechanism, PBFT has a leader, validating and non-validating peers.
+- Consensus messages flow between the appropriate peers to ensure that the blockchain's smart contract transactions are kept in order
 ```
