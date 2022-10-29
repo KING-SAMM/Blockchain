@@ -238,6 +238,21 @@ A Hash pointer is a pointer to the location where information or hash of that in
 ```
 
 
+GENERATION OF NONCE
+------------------------------------------
+```
+Step 1: https://andersbrownworth.com/blockchain/block and observe the the nonce value
+Step 2: Enter some data in the data field and click on 'mine'. Observe that a new nonce and hash are generated
+```
+
+
+GENERATION OF HASH VALUE
+------------------------------------------
+```
+Step 1: Visit https://andersbrownworth.com/blockchain/hash 
+Step 2: Enter some data in the data field and observe the change in the hash value.
+```
+
 PROOF OF STAKE
 ------------------------------------------
 ```
