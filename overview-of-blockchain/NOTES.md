@@ -289,3 +289,50 @@ Practical Byzantine Faut Tolerance (PBFT) improves the robustness and performanc
 - Though the exact network structure depends on the consensus mechanism, PBFT has a leader, validating and non-validating peers.
 - Consensus messages flow between the appropriate peers to ensure that the blockchain's smart contract transactions are kept in order
 ```
+
+
+BLOCKCHAIN BLOCK STRUCTURE
+------------------------------------------
+```
+A block comprises of 3 parts:
+
+1. Header - contains version information, nonce, previous block ID, and timestamp
+2. Merkle - hash built from block's transaction identifiers
+3. Transaction List - contains identification of hashes included in the block's merkle tree
+```
+
+BLOCKCHAIN IDENTIFIERS
+------------------------------------------
+```
+1. Block Header
+2. Block Heigth
+
+Block Header is a primary identifier of a block. It is the digital fingerprint twice the size of the block. It serves as a unique identification for a block, and has 32 byte hash.
+
+Block Height is the position of a block in a blockchain. The first block, called the Genesis Block, is of height 0. Each node dynamically identifies a block, thus height of a block is comsidered the number of blocks that the chain has between itself and the Genesis block. The height of a blockchain is generally taken to be the height of its highest block in a chain with the maximum total dificulty, which is the lenght of chain minus 1.
+```
+
+BLOCKCHAIN MERKLE TREE
+------------------------------------------
+```
+Blockchain Merkle Tree is a data structure used for summarizing and verifying the integrity of large sets of data. It is also known as a binary hash tree.
+
+Merkle Root
+```
+
+
+MERKLE ROOT
+------------------------------------------
+```
+
+```
+
+ADVANTAGES OF A MERKLE TREE
+------------------------------------------
+```
+1. Merkle tree provides a way of proving integrity of the data.
+2. Menmory or the disk space required is very low.
+3. The proofs in a merkkle Tree is computed quickkly and easily.
+4. Merkkle Trees also provide validation of the data.
+5. Merkle Roots require very less information to be transmitted across the network.
+```
