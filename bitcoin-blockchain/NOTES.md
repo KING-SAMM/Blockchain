@@ -31,3 +31,48 @@ At the desired rate of 1 block per 10 mins, 2016 blocks should take exactly 2 we
 
 The number of bitcoins generated per block decreases by 50% every 210,000 blocks.
 ```
+
+
+WAYS TO GET BITCOIN
+------------------------------------------
+```
+Before getting bitcoin, a user must first install a virtual wallet on a computer or mobile device where bitcoins can be received.
+
+1. Buying Online
+    - First create an account in an online exchange
+    - The online exchange can then be used to buy and sell bitcoin on your behalf
+2. Buying with Cash
+    - Choose a purchase method
+    - Platforms like LocalBitcoins will help you find people near you willing to exchange Bitcoins for cash.
+    - There are ATMs that send bitcoins to your wallet in exchange for cash.
+```
+
+
+BUYING BITCOINS FROM AN EXCHANGE
+------------------------------------------
+```
+1. Choose an exchange 
+    - Choose an exchange by entering your country of residence and then selecting from a list of exchanges.
+2. Set up an account
+    - Set up an account on the exchange. Various forms of identification are required depending on the exchange.
+3. Connect bank account
+    - Connect one or more bank accounts to your exchange account for buying or selling of bitcoins.
+4. Select amount
+    - Select an amount of Bitcoins to purchase, enter your Bitcoins address and confirm purchase.
+```
+
+BEST BITCOIN EXCHANGES
+------------------------------------------
+```
+1. Coinbase
+    - one of the world's largest bitcoin exchanges.
+2. SpectroCoin
+    - quick and easy exchange offering more than 20 payment options.
+3. Indacoin
+    - let's you buy Bitcoin and 700 other coins with Visa and MasterCard.
+4. Kraken
+    - best exchange for deposit and purchase of Bitcoins on the same day.
+5. LocalBitcoins
+    - an escrow service that helps match Bitcoin buyers and sellers
+```
+
