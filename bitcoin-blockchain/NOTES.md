@@ -76,3 +76,98 @@ BEST BITCOIN EXCHANGES
     - an escrow service that helps match Bitcoin buyers and sellers
 ```
 
+
+WALLETS
+------------------------------------------
+```
+Bitcoin wallets are digital wallets where private keys are used to access the Bitcoin address and signature for transactions.
+
+Technically, Bitcoins are not stored anywhere.
+
+There is a private key matched to every Bitcoin address which can be saved in the Bitcoin wallet of the person who owns the balance.
+
+Thus Bitcoin wallets facilitate sending and receiving Bitcoins and gives ownership of the Bitcoin balance to the concerned user.
+```
+
+TYPES OF BITCOIN WALLETS
+------------------------------------------
+```
+1. Software wallets
+2. Web wallet
+3. Hardware wallets
+4. Brain wallet
+5. Mobile wallet
+```
+
+BEST BITCOIN WALLETS (BY TYPES)
+------------------------------------------
+```
+1. Software wallets
+    - Armory, Bitcoin Core, MultiBit HD
+2. Web wallets
+    - Coinbase, Blockchain, Circle
+3. Hardware wallets
+    - Ledger, Trezor, Opendime
+4. Mobile wallets
+    - Breadwallet, Mycelium, Bitcoin Wallet
+```
+
+
+GENERATE A JAXX WEB WALLET
+------------------------------------------
+```
+Step 1: Visit https://jaxx.io to set up Jaxx web wallet
+Step 2: Click on the chrome buttom to download Jaxx for Chrome.
+Step 3: Click on 'Create New Wallet' from the JAxx extension
+Step 4: Click 'Continue' after accepting Terms and Conditions of the wallet'
+Step 5: Your wallet will get generated for transactions
+```
+
+
+GENERATE AN EXODUS SOFTWARE WALLET
+------------------------------------------
+```
+Step 1: Visit https://exodus.io to download Exodus software wallet
+Step 2: Click on the download button
+Step 3: Select the download file that supports your operating system
+Step 4: Click on the downloaded file to install the wallet software
+Step 5: Click on the Exxodus icon to open the wallet
+```
+
+
+EXAMPLES OF WHERE TO USE BITCOINS
+------------------------------------------
+```
+1. Spending Bitcoins
+    - Spending online:
+        (a) common household items
+        (b) gift cards
+        (c) video games
+
+    - Spending offline
+        (a) food - there is a coffee shop in Prague that only accepts Bitcoins
+        (b) travel - you can book for hotels, buy tickets of ships, cruises, flights using Bitcoins
+
+2. Places to Spend Bitcoin
+    - Overstock.com: 
+        first big online retailer to accept Bitcoins
+    - Shopify stores:
+        e-commerce platform where you can pay in Bitcoin
+    - CheapAir: 
+        choose your flights and pay with Bitcoins
+    - Expedia: 
+        provides option to pay for their hotel bookings with Bitcoin
+    - eGifter:
+        popular gift card site  accepting Bitcoins as payments
+    - Reeds Jewelry Inc.
+        American jewelers where you can purchase jewelry with Bitcoins
+    - Newegg:
+        an electronic retail giant that accepts Bitcoins
+    - Dish:
+        satellite TV nd internet provider that started accepting Bitcoin payments in 2014
+    - Microsoft:
+        you can use Bitcoin to deposit funds into your Microsoft account
+```
+
+
+
