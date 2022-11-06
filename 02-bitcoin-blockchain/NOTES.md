@@ -1,39 +1,41 @@
-INTRODUCTION TO BITCOIN
+# Bitcoin Blockchian
+
+## INTRODUCTION TO BITCOIN
 ------------------------------------------
 
-Bitcoin was the first digital currency to facilitate the instant transfer of value across the world without a central authority like a bank.
+> Bitcoin was the first digital currency to facilitate the instant transfer of value across the world without a central authority like a bank.
 
 Bitcoins cannot be printed. They are produced by computers all around the world using a free software and are held electronically.
 
 
-OPERATIONS IN A BITCOIN SYSTEM
+## OPERATIONS IN A BITCOIN SYSTEM
 ------------------------------------------
 
 1. Transaction Management
-        - transfer of coins from one addrerss to another
+    - transfer of coins from one addrerss to another
 2. Currency Generation
-        - regulating of menetary value for bitcoin
+    - regulating of menetary value for bitcoin
 
 
 
-BITCOIN CONTROLLED SUPPLY
+## BITCOIN CONTROLLED SUPPLY
 ------------------------------------------
 
-Bitcoin supply is limited for the currency to have value.
+- Bitcoin supply is limited for the currency to have value.
 
-Each block produced contains new Bitcoins created from nothing.
+- Each block produced contains new Bitcoins created from nothing.
 
-The total number of bitcoins have a cap at 21 million. Thus no more than 21 million bitcoins will ever be created.
+- The total number of bitcoins have a cap at 21 million. Thus no more than 21 million bitcoins will ever be created.
 
-The rate of block creation is adjusted every 2016 blocks.
+- The rate of block creation is adjusted every 2016 blocks.
 
-At the desired rate of 1 block per 10 mins, 2016 blocks should take exactly 2 weeks to mine. Thus if the last 2016 block have taken more tha 2 weeks. The difficulty is reduced. Consequently, if they took less than 2 weeks, the difficulty is increased.
+- At the desired rate of 1 block per 10 mins, 2016 blocks should take exactly 2 weeks to mine. Thus if the last 2016 block have taken more tha 2 weeks. The difficulty is reduced. Consequently, if they took less than 2 weeks, the difficulty is increased.
 
-The number of bitcoins generated per block decreases by 50% every 210,000 blocks.
+- The number of bitcoins generated per block decreases by 50% every 210,000 blocks.
 
 
 
-WAYS TO GET BITCOIN
+## WAYS TO GET BITCOIN
 ------------------------------------------
 
 Before getting bitcoin, a user must first install a virtual wallet on a computer or mobile device where bitcoins can be received.
@@ -48,7 +50,7 @@ Before getting bitcoin, a user must first install a virtual wallet on a computer
 
 
 
-BUYING BITCOINS FROM AN EXCHANGE
+## BUYING BITCOINS FROM AN EXCHANGE
 ------------------------------------------
 
 1. Choose an exchange 
@@ -61,7 +63,7 @@ BUYING BITCOINS FROM AN EXCHANGE
     - Select an amount of Bitcoins to purchase, enter your Bitcoins address and confirm purchase.
 
 
-BEST BITCOIN EXCHANGES
+## BEST BITCOIN EXCHANGES
 ------------------------------------------
 
 1. Coinbase
@@ -77,10 +79,10 @@ BEST BITCOIN EXCHANGES
 
 
 
-WALLETS
+## WALLETS
 ------------------------------------------
 
-Bitcoin wallets are digital wallets where private keys are used to access the Bitcoin address and signature for transactions.
+> Bitcoin wallets are digital wallets where private keys are used to access the Bitcoin address and signature for transactions.
 
 Technically, Bitcoins are not stored anywhere.
 
@@ -89,7 +91,7 @@ There is a private key matched to every Bitcoin address which can be saved in th
 Thus Bitcoin wallets facilitate sending and receiving Bitcoins and gives ownership of the Bitcoin balance to the concerned user.
 
 
-TYPES OF BITCOIN WALLETS
+## TYPES OF BITCOIN WALLETS
 ------------------------------------------
 
 1. Software wallets
@@ -99,7 +101,7 @@ TYPES OF BITCOIN WALLETS
 5. Mobile wallet
 
 
-BEST BITCOIN WALLETS (BY TYPES)
+## BEST BITCOIN WALLETS (BY TYPES)
 ------------------------------------------
 
 1. Software wallets
@@ -113,7 +115,7 @@ BEST BITCOIN WALLETS (BY TYPES)
 
 
 
-GENERATE A JAXX WEB WALLET
+## GENERATE A JAXX WEB WALLET
 ------------------------------------------
 
 Step 1: Visit https://jaxx.io to set up Jaxx web wallet
@@ -124,7 +126,7 @@ Step 5: Your wallet will get generated for transactions
 
 
 
-GENERATE AN EXODUS SOFTWARE WALLET
+## GENERATE AN EXODUS SOFTWARE WALLET
 ------------------------------------------
 
 Step 1: Visit https://exodus.io to download Exodus software wallet
@@ -135,7 +137,7 @@ Step 5: Click on the Exxodus icon to open the wallet
 
 
 
-EXAMPLES OF WHERE TO USE BITCOINS
+## EXAMPLES OF WHERE TO USE BITCOINS
 ------------------------------------------
 
 1. Spending Bitcoins
@@ -171,16 +173,16 @@ EXAMPLES OF WHERE TO USE BITCOINS
 
 
 
-DOUBLE SPENDING PROBLEM
+## DOUBLE SPENDING PROBLEM
 ------------------------------------------
 
-Scenario: If Joey uses his 5 BTC in ,ore than one transaction.
+*Scenario: If Joey uses his 5 BTC in more than one transaction.*
 
-Spending the same Bitcoin in more than one transaction is called Double Spending Problem.
+> Spending the same Bitcoin in more than one transaction is called Double Spending Problem.
 
 
 
-ENCOUNTERNG DOUBLE SPENDING IN BLOCKCHAIN
+## ENCOUNTERNG DOUBLE SPENDING IN BLOCKCHAIN
 ------------------------------------------
 
 The security measure which prevent double spending in Blockchain are as follows:
@@ -191,10 +193,10 @@ The security measure which prevent double spending in Blockchain are as follows:
 4. Anyone can validate the transactions and and this validation prevents double spendinng.
 
 
-PSEUDONYMITY IN BITCOIN
+## PSEUDONYMITY IN BITCOIN
 ------------------------------------------
 
-Pseudonymity is the near anonymous state in which users have disguised identities and do not disclose their true identities.
+> Pseudonymity is the near anonymous state in which users have disguised identities and do not disclose their true identities.
 
 - Bitcoin is a permissionless blockchain where you don't need to set up an account.
 - The public and private keys are generated by the wallet.
@@ -203,20 +205,20 @@ Pseudonymity is the near anonymous state in which users have disguised identitie
 Therefore Satoshi Nakamoto recommended that users use a new address for each transaction to avoid the transactions being linked to a common owner.
 
 
-BITCOIN ADDRESSES
+## BITCOIN ADDRESSES
 ------------------------------------------
 
-The Bitcoin address correspondsd to a public key based on ECDSA (Elliptic Curve Digital Signature Algorithm) used in the Bitcoin.
+> The Bitcoin address correspondsd to a public key based on ECDSA (Elliptic Curve Digital Signature Algorithm) used in the Bitcoin.
 
 A wallet can have many such addresses and can be used for transactions.
 
 
-BITCOIN TRANSACTIONS UTXOs
+## BITCOIN TRANSACTIONS UTXOs
 ------------------------------------------
 
 UTXO or Unspent Transaction Output is the fundamental building block of Bitcoin.
 
-Scenario: Ross wants to send 0.15 BTC to Joey.
+*Scenario: Ross wants to send 0.15 BTC to Joey.*
 
 (Before): Ross has a total of 3.21BTC in his wallet distributed in three bytes: 3, 0.2, 0.01 BTCs.
 
@@ -226,7 +228,7 @@ Ross makes the transaction: He destroys the byte containing the 0.2 BTC in order
 
 
 
-BITCOIN TRANSACTION STRUCTURE
+## BITCOIN TRANSACTION STRUCTURE
 ------------------------------------------
 
 A Bitcoin transaction has three pieces of information
@@ -239,7 +241,7 @@ A Bitcoin transaction has three pieces of information
 
 
 
-BITCOIN SCRIPT: FEATURES
+## BITCOIN SCRIPT: FEATURES
 ------------------------------------------
 
 All Bitcoin transaction have scripts embedded into their inputs and outputs.
@@ -250,16 +252,16 @@ All Bitcoin transaction have scripts embedded into their inputs and outputs.
 - Bitcoin Script describes how the person can access the Bitcoin if they want to spend them.
 - Bitcoin Script is turin incomplete.
 
-NOTE: Turin incomplete means one cannot have looping conditions in the code. Thus, output from the code is like a boolean: true or false.
+***NOTE***: Turin incomplete means one cannot have looping conditions in the code. Thus, output from the code is like a boolean: true or false.
 
 
-BITCOIN SCRIPT: EXAMPLE
+# BITCOIN SCRIPT: EXAMPLE
 ------------------------------------------
 
-Scenario: Joey verifies the transaction is initiated by Ross.
+*Scenario: Joey verifies the transaction is initiated by Ross.*
 
-- Transaction from Ross is initiated (T~Ross->Joey~)
-- Public key of K~pub~<sup>R</sup> is sent along with the signature, S~R~(T~Ross->Joey~) which Joey can verify.
+- Transaction from Ross is initiated (T<sub>Ross->Joey</sub>)
+- Public key of K<sub>pub</sub><sup>R</sup> is sent along with the signature, S<sub>R</sub>(T<sub>Ross->Joey</sub>) which Joey can verify.
 
 - Bitcoin transfers scripts instead of signature and the public key.
 - Joey can spend Bitcoin only if both the scripts return true after execution.
