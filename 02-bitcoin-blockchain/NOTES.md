@@ -202,3 +202,65 @@ Pseudonymity is the near anonymous state in which users have disguised identitie
 
 Therefore Satoshi Nakamoto recommended that users use a new address for each transaction to avoid the transactions being linked to a common owner.
 ```
+
+BITCOIN ADDRESSES
+------------------------------------------
+```
+The Bitcoin address correspondsd to a public key based on ECDSA (Elliptic Curve Digital Signature Algorithm) used in the Bitcoin.
+
+A wallet can have many such addresses and can be used for transactions.
+```
+
+BITCOIN TRANSACTIONS UTXOs
+------------------------------------------
+```
+UTXO or Unspent Transaction Output is the fundamental building block of Bitcoin.
+
+Scenario: Ross wants to send 0.15 BTC to Joey.
+
+(Before): Ross has a total of 3.21BTC in his wallet distributed in three bytes: 3, 0.2, 0.01 BTCs.
+
+Ross makes the transaction: He destroys the byte containing the 0.2 BTC in order to send 0.15 BTC to Joey.
+
+(After): The remaining 0.05 BTC creates a new output, and is available in Ross' wallet as another byte, thereby reducing his balance to 3.06 BTC.
+```
+
+
+BITCOIN TRANSACTION STRUCTURE
+------------------------------------------
+```
+A Bitcoin transaction has three pieces of information
+1. Input:
+    - This is a record of which Bitcoin address was used to send the Bitcoin to the receiver in the first place. Also referred to as the unspent trasaction output.
+2. Amount:
+    - This is the amount of Bitcoins the sender sends to the receiver
+3. Output:
+    - This is sent to the sender's address as change. It is the new unspent transaction output for his wallet.
+```
+
+
+All Bitcoin transaction have scripts embedded into their inputs and outputs.
+
+BITCOIN SCRIPT: FEATURES
+------------------------------------------
+```
+- Bitcoin Scripts is a stack-based programming language like Forth.
+- A list of instructions are recorded with each transaction.
+- Opreations in Bitcoin are composed of opcodes. Bitoin scripts have a total of 256 opcodes.
+- Bitcoin Script describes how the person can access the Bitcoin if they want to spend them.
+- Bitcoin Script is turin incomplete.
+
+NOTE: Turin incomplete means one cannot have looping conditions in the code. Thus, output from the code is like a boolean: true or false.
+```
+
+BITCOIN SCRIPT: EXAMPLE
+------------------------------------------
+```
+Scenario: Joey verifies the transaction is initiated by Ross.
+
+- Transaction from Ross is initiated (T~Ross->Joey~)
+- Public key of K~pub~<sup>R</sup> is sent along with the signature, S~R~(T~Ross->Joey~) which Joey can verify.
+
+- Bitcoin transfers scripts instead of signature and the public key.
+- Joey can spend Bitcoin only if both the scripts return true after execution.
+```
