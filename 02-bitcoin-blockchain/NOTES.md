@@ -239,16 +239,16 @@ A Bitcoin transaction has three pieces of information
 ```
 
 
-All Bitcoin transaction have scripts embedded into their inputs and outputs.
-
 BITCOIN SCRIPT: FEATURES
 ------------------------------------------
 ```
-- Bitcoin Scripts is a stack-based programming language like Forth.
-- A list of instructions are recorded with each transaction.
-- Opreations in Bitcoin are composed of opcodes. Bitoin scripts have a total of 256 opcodes.
-- Bitcoin Script describes how the person can access the Bitcoin if they want to spend them.
-- Bitcoin Script is turin incomplete.
+All Bitcoin transaction have scripts embedded into their inputs and outputs.
+
+* Bitcoin Scripts is a stack-based programming language like Forth.
+* A list of instructions are recorded with each transaction.
+* Opreations in Bitcoin are composed of opcodes. Bitoin scripts have a total of 256 opcodes.
+* Bitcoin Script describes how the person can access the Bitcoin if they want to spend them.
+* Bitcoin Script is turin incomplete.
 
 NOTE: Turin incomplete means one cannot have looping conditions in the code. Thus, output from the code is like a boolean: true or false.
 ```
@@ -264,3 +264,9 @@ Scenario: Joey verifies the transaction is initiated by Ross.
 - Bitcoin transfers scripts instead of signature and the public key.
 - Joey can spend Bitcoin only if both the scripts return true after execution.
 ```
+
+### CHECKING THINGS
+----------------------------
+- Test 1
+- Test 2
+- Test 3
