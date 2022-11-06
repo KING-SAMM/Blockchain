@@ -284,4 +284,4 @@ The unlocking script consists of the receiver's private key and public key. The 
 - a hash is generated for the receiver's public key.
 - this hash is compared with the public key hash of the received transaction. 
 - the two are compared, and if they are equal, the receiver's private key is used to unlock the transaction. Thus making it available in his wallet.
-![Bitcon Script Construction b](../../../../../../mnt/d/programming/Blockchain-Solidity-SmartCntracts/blockchain-course/lesson3-Bitcoin-Blockchain/3.9-bitcoin-script-construction/bitcoin-script-construction2.png)
+![Bitcon Script Construction b](../../../../../../../mnt/d/programming/Blockchain-Solidity-SmartCntracts/blockchain-course/lesson3-Bitcoin-Blockchain/3.9-bitcoin-script-construction/bitcoin-script-construction2.png)
