@@ -1,4 +1,6 @@
-BLOCKCHAIN
+# Overview of Blockchian
+
+## BLOCKCHAIN
 ------------------------------------------
 
 Blockchain is a decentralized ledger of all transactions (digital records) across a peer-to-peer network. It is a technology that enables Bitcoin and is also applied to many business processes. 
@@ -9,7 +11,7 @@ At its core, blockchain is simply a chain of blocks. When using using the words 
 
 
 
-HISTORY OF BLOCKCHAIN
+## HISTORY OF BLOCKCHAIN
 ------------------------------------------
 
 1990 :-         The concept of distributed ledgers has been around since 1990. The application, Bitorrent, leverages this tech to share media files.
@@ -23,7 +25,7 @@ HISTORY OF BLOCKCHAIN
 
 
 
-ISSUES IN BANKING SYSTEM
+## ISSUES IN BANKING SYSTEM
 ------------------------------------------
 
 1. Certain transactions take a long time (even days to complete)
@@ -34,7 +36,7 @@ ISSUES IN BANKING SYSTEM
 6. Every bank maintains its own ledger, thus the banks need to update them independently and reconcile periodically.
 
 
-BLOCKCHAINN SOLUTION FOR THE ISSUES
+## BLOCKCHAINN SOLUTION FOR THE ISSUES
 ------------------------------------------
 
 1. Transactions are very fast, completeing almost immediately
@@ -49,7 +51,7 @@ Thus, blockchain takled the issues in traditional banking with some of its featu
 5. Advanced Cryptography algorithm
 
 
-BLOCKCHAIN TRANSACTION PROCESS
+## BLOCKCHAIN TRANSACTION PROCESS
 ------------------------------------------
 
 1. New transaction is requested.
@@ -61,7 +63,7 @@ BLOCKCHAIN TRANSACTION PROCESS
 This is how a new transaction is completed.
 
 
-STEPS OF BLOCKCHAIN TRANSACTION
+## STEPS OF BLOCKCHAIN TRANSACTION
 ------------------------------------------
 
 Blockchain transaction works by implementing one of the following features in each step:
@@ -71,8 +73,8 @@ Blockchain transaction works by implementing one of the following features in ea
 4. Distributed Ledger
 
 
-TRANSACTION INITIATION:
-FEATURES OF BLOCKCHAIN: 1.CRYPTOGRAPHY ALGORITHM
+# TRANSACTION INITIATION:
+## FEATURES OF BLOCKCHAIN: 1.CRYPTOGRAPHY ALGORITHM
 ------------------------------------------
 
 It is an algorithm that is used to alter data from plain text (readable format) to ciphertext (protected format) and back to plain text
@@ -84,7 +86,7 @@ There are two kinds of cryptographies
     2. Symmetric key cryptography
 
 
-ASYMMETRIC KEY CRYPTOGAPHY
+## ASYMMETRIC KEY CRYPTOGAPHY
 ------------------------------------------
 
 Asymmetric key cryptography uses two kinds of keys 
@@ -93,7 +95,7 @@ Asymmetric key cryptography uses two kinds of keys
 
 
 
-SYMMETRIC KEY CRYPTOGAPHY
+## SYMMETRIC KEY CRYPTOGAPHY
 ------------------------------------------
 
 Symmetric key cryptography uses only one key - the secret key - for both encryption and decryption
@@ -103,7 +105,7 @@ The Bitcoin Blockchain uses asymmetric key cryptography in order to leverage the
 
 
 
-DIGITAL SIGNATURE
+## DIGITAL SIGNATURE
 ------------------------------------------
 
 - A digital signature provides authentication and validation, like normal signatures
@@ -112,7 +114,7 @@ DIGITAL SIGNATURE
 - Primary keys are linked to users providing digital signatures a quality of nonrepudiation
 
 
-DIGITAL SIGNATURE CREATION
+## DIGITAL SIGNATURE CREATION
 ------------------------------------------
 
 1. The signer takes a information to be transmitted and runs a hash algorithm to generate a 32 or 64 bit hash value.
