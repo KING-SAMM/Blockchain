@@ -188,11 +188,11 @@ It ensures that all transactions ocurring on the network are genuine and all par
 ## FEATURES OF CONCENSUS PROTOCOL
 ------------------------------------------
 
-1. *Efficiency* - Consensus makes exchanges quicker and simpler as no third party is required.
-2. *Security* - this is ensured by NOT having a single poit of failure. Secentralization ensures that even if one device fails, the data continues to be secure elsewhere.
-3. *Real time*
-4. *Reliable* - It isimpossible to tamper witth the contents of a block without it being noticed as along with the daystamp. This provides a non-repudable statement binding your work to a point in time.
-5. *Functional* - Consensus is making the blockchain more functional due to its adoption in various industries for development of new applications.
+1. ***Efficiency*** - Consensus makes exchanges quicker and simpler as no third party is required.
+2. ***Security*** - this is ensured by NOT having a single poit of failure. Secentralization ensures that even if one device fails, the data continues to be secure elsewhere.
+3. ***Real time***
+4. ***Reliable*** - It isimpossible to tamper witth the contents of a block without it being noticed as along with the daystamp. This provides a non-repudable statement binding your work to a point in time.
+5. ***Functional*** - Consensus is making the blockchain more functional due to its adoption in various industries for development of new applications.
 
 
 ## MINERS and ROLE OF MINERS
