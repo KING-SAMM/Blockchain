@@ -195,10 +195,5 @@ It ensures that all transactions ocurring on the network are genuine and all par
 5. ***Functional*** - Consensus is making the blockchain more functional due to its adoption in various industries for development of new applications.
 
 
-## MINERS and ROLE OF MINERS
-------------------------------------------
 
-Miners are an integral part of the bitcoin ecosystem who ensure fairness and keep the network stable, safe and secure by approving transactions.
-
-Miners have to provide a solution to complex Mathematical problems which is called Proof of Work.
 
